@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+    
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse; /* esse comando junta as bordas da tabela */
+        }
+
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+            
+        }
+
+        thead, tfoot{
+            background-color: chartreuse;
+        }
+
+
+    </style>
+
+    
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        anatomia para tabelas grandes
+        TABLE   
+            THEAD
+                TR, TD, TH
+            TBODY  
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+
+    <table>
+        <thead><!--cabeçalho da tabela-->
+            <tr><!--linha da tabela-->
+                <th>Cidades</th>
+                <th>População</th>
+            </tr>
+        </thead>
+       
+        <Tbody><!--corpo da tabela-->
+            <tr>
+                <td>Bahia</td>
+                <td>2514524</td>
+            </tr>
+        </Tbody>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>2515416524</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>rio de janeiro</td>
+                <td>28216514</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!-- rodapé da tabela-->
+            <tr>
+                <th>Total</th>
+                <td>21142547</td>
+            </tr>
+
+        </tfoot>
+
+
+    </table>
+    
+</body>
+</html>
