@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* estilos para telas*/
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+header{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color: cadetblue;
+}
+menu li{
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
