@@ -18,8 +18,22 @@ header > h1{
     text-align: center;
 }
 menu{
-    display: block;
+    display: none;
 }
+
+i#menu{
+    background-color: aliceblue;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#menu:hover{
+    background-color: rgb(176, 215, 250);
+    color: blue;
+}
+
+
 
 menu > ul{
      list-style-type: none;
